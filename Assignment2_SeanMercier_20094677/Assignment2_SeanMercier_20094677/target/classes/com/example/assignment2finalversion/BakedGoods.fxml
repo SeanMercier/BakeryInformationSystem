@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="700.0" prefWidth="1071.0" style="-fx-background-color: #5F9EA0;" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.assignment2finalversion.BakedGoodsController">
+    <children>
+        <Label fx:id="BakedGoodsNameLabel" layoutX="7.0" layoutY="83.0" prefHeight="19.0" prefWidth="138.0" text="Baked Goods Name:">
+            <font>
+                <Font name="System Bold" size="13.0" />
+            </font></Label>
+        <TextField fx:id="BakedGoodsField" layoutX="139.0" layoutY="80.0" promptText="Baked Goods Name" style="-fx-background-color: White;" />
+        <Button fx:id="addbgbutton" layoutX="8.0" layoutY="404.0" mnemonicParsing="false" onAction="#addBakedGoods" prefHeight="30.0" prefWidth="122.0" style="-fx-background-color: Grey;" text="Add" />
+        <Label fx:id="CountryoforiginLabel" layoutX="8.0" layoutY="149.0" prefHeight="26.0" prefWidth="122.0" text="Country Of Origin:">
+            <font>
+                <Font name="System Bold" size="13.0" />
+            </font></Label>
+        <TextField fx:id="CountryoforiginField" layoutX="139.0" layoutY="150.0" promptText="Country Of Origin" style="-fx-background-color: White;" />
+        <Label layoutX="435.0" layoutY="28.0" prefHeight="27.0" prefWidth="122.0" text="Baked Goods">
+            <font>
+                <Font name="System Bold" size="18.0" />
+            </font>
+        </Label>
+        <Button id="AddIngredientsButton" fx:id="deletebgbutton" layoutX="8.0" layoutY="445.0" mnemonicParsing="false" onAction="#deleteBakedGood" prefHeight="30.0" prefWidth="122.0" style="-fx-background-color: Grey;" text="Delete" />
+        <Button id="ResetButton" fx:id="resetbgbutton" layoutX="8.0" layoutY="526.0" mnemonicParsing="false" onAction="#resetBakedGoods" prefHeight="30.0" prefWidth="122.0" style="-fx-background-color: Grey;" text="Reset" />
+        <Label fx:id="DescriptionLabel" layoutX="46.0" layoutY="213.0" prefHeight="19.0" prefWidth="89.0" text="Description:">
+            <font>
+                <Font name="System Bold" size="13.0" />
+            </font>
+        </Label>
+        <Label fx:id="ImageLabel" layoutX="76.0" layoutY="276.0" prefHeight="18.0" prefWidth="43.0" text="Image:">
+            <font>
+                <Font name="System Bold" size="13.0" />
+            </font>
+        </Label>
+        <TextField fx:id="DescriptionField" layoutX="139.0" layoutY="210.0" promptText="Description" style="-fx-background-color: White;" />
+        <TextField fx:id="ImageField" layoutX="139.0" layoutY="273.0" promptText="Image URL" style="-fx-background-color: White;" />
+        <Button fx:id="updatebgbutton" layoutX="8.0" layoutY="484.0" mnemonicParsing="false" onAction="#updateBakedGood" prefHeight="30.0" prefWidth="122.0" style="-fx-background-color: Grey;" text="Update" />
+        <ListView fx:id="BakedGoodslistView" layoutX="320.0" layoutY="76.0" minHeight="-Infinity" minWidth="-Infinity" prefHeight="262.0" prefWidth="431.0" style="-fx-background-color: White;" />
+        <ListView fx:id="searchedbakedgoodsview" layoutX="322.0" layoutY="408.0" minHeight="-Infinity" minWidth="-Infinity" prefHeight="142.0" prefWidth="431.0" />
+      <Button fx:id="savebgbutton" layoutX="188.0" layoutY="435.0" mnemonicParsing="false" onAction="#saveBG" text="Save" />
+      <Button fx:id="loadbgbutton" layoutX="187.0" layoutY="474.0" mnemonicParsing="false" onAction="#loadBG" text="Load" />
+      <Button fx:id="searchbgbutton" layoutX="320.0" layoutY="363.0" mnemonicParsing="false" onAction="#searchBakedGoodName" text="Search By Name" />
+      <Button fx:id="searchbgdescbutton" layoutX="430.0" layoutY="363.0" mnemonicParsing="false" onAction="#searchBakedGoodDescription" text="Search By Description" />
+      <Button fx:id="searchbgcountrybutton" layoutX="568.0" layoutY="363.0" mnemonicParsing="false" onAction="#searchBakedGoodCountry" text="Search By Country" />
+    </children>
+</AnchorPane>

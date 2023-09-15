@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="851.0" prefWidth="1044.0" style="-fx-background-color: #5F9EA0;" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.assignment2finalversion.IngredientsController">
+    <children>
+        <Label fx:id="IngredientsLabel" layoutX="7.0" layoutY="83.0" prefHeight="19.0" prefWidth="138.0" text="Ingredient Name:">
+            <font>
+                <Font name="System Bold" size="13.0" />
+            </font></Label>
+        <TextField fx:id="ingNameField" layoutX="139.0" layoutY="80.0" promptText="Ingredients Name" style="-fx-background-color: White;" />
+        <Button fx:id="AddIngredientsButton" layoutX="8.0" layoutY="395.0" mnemonicParsing="false" onAction="#addIngredients" prefHeight="30.0" prefWidth="122.0" style="-fx-background-color: Grey;" text="Add" />
+        <Label fx:id="lblType" layoutX="37.0" layoutY="149.0" prefHeight="26.0" prefWidth="78.0" text="Description:">
+            <font>
+                <Font name="System Bold" size="13.0" />
+            </font></Label>
+        <TextField fx:id="ingDescriptionField" layoutX="139.0" layoutY="150.0" promptText="Description" style="-fx-background-color: White;" />
+        <Label fx:id="Jewellerystoremanagementsystem" layoutX="461.0" layoutY="28.0" prefHeight="27.0" prefWidth="122.0" text="INGREDIENTS">
+            <font>
+                <Font name="System Bold" size="18.0" />
+            </font>
+        </Label>
+        <ListView fx:id="IngredientsListView" layoutX="326.0" layoutY="74.0" prefHeight="286.0" prefWidth="470.0" style="-fx-background-color: white;" />
+        <Button id="DeleteIngredients" fx:id="DeleteIngredientsButton" layoutX="8.0" layoutY="445.0" mnemonicParsing="false" onAction="#deleteIngredient" prefHeight="30.0" prefWidth="122.0" style="-fx-background-color: Grey;" text="Delete" />
+        <Button id="resetingbutton" fx:id="resetIngredientsButton" layoutX="8.0" layoutY="532.0" mnemonicParsing="false" onAction="#resetIngredients" prefHeight="30.0" prefWidth="122.0" style="-fx-background-color: Grey;" text="Reset" />
+        <Label fx:id="NameButton2" layoutX="58.0" layoutY="213.0" prefHeight="19.0" prefWidth="61.0" text="Calories:">
+            <font>
+                <Font name="System Bold" size="13.0" />
+            </font>
+        </Label>
+        <TextField fx:id="ingCaloriesField" layoutX="139.0" layoutY="210.0" promptText="Calories" style="-fx-background-color: White;" />
+        <Button id="updateIngr" fx:id="updateIngredientsButton" layoutX="8.0" layoutY="489.0" mnemonicParsing="false" onAction="#updateIngredient" prefHeight="30.0" prefWidth="122.0" style="-fx-background-color: Grey;" text="Update" />
+      <Button fx:id="saveingbutton" layoutX="188.0" layoutY="398.0" mnemonicParsing="false" onAction="#saveING" text="Save" />
+      <Button fx:id="loadingbutton" layoutX="188.0" layoutY="448.0" mnemonicParsing="false" onAction="#loadING" text="Load" />
+      <ListView fx:id="searchedingredientsview" layoutX="326.0" layoutY="419.0" prefHeight="200.0" prefWidth="470.0" />
+      <Button fx:id="searchingnamebutton" layoutX="326.0" layoutY="383.0" mnemonicParsing="false" onAction="#searchIngredientName" text="Search Name" />
+      <Button fx:id="searchingdescriptionbutton" layoutX="424.0" layoutY="383.0" mnemonicParsing="false" onAction="#searchIngredientDescription" text="Search Description" />
+      <Button fx:id="searchedingamountbutton" layoutX="548.0" layoutY="382.0" mnemonicParsing="false" onAction="#searchIngredientAmount" text="Search Calories" />
+    </children>
+</AnchorPane>

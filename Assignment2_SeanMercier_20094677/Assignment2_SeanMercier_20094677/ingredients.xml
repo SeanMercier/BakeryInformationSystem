@@ -1,0 +1,11 @@
+<object-stream>
+  <com.example.assignment2finalversion.ADT.LinkList>
+    <head>
+      <contents class="com.example.assignment2finalversion.Ingredients">
+        <IngredientsField>rer</IngredientsField>
+        <DescriptionField></DescriptionField>
+        <CaloriesField></CaloriesField>
+      </contents>
+    </head>
+  </com.example.assignment2finalversion.ADT.LinkList>
+</object-stream>

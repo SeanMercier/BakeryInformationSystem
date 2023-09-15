@@ -1,0 +1,18 @@
+<object-stream>
+  <com.example.assignment2finalversion.ADT.LinkList>
+    <head>
+      <next>
+        <contents class="com.example.assignment2finalversion.Recipe">
+          <recname>test</recname>
+          <recdescription>test</recdescription>
+          <amount>1</amount>
+        </contents>
+      </next>
+      <contents class="com.example.assignment2finalversion.Recipe">
+        <recname>test1</recname>
+        <recdescription>test</recdescription>
+        <amount>1</amount>
+      </contents>
+    </head>
+  </com.example.assignment2finalversion.ADT.LinkList>
+</object-stream>

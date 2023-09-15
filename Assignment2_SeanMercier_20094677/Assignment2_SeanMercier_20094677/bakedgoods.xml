@@ -1,0 +1,44 @@
+<object-stream>
+  <com.example.assignment2finalversion.ADT.LinkList>
+    <head>
+      <next>
+        <next>
+          <next>
+            <next>
+              <contents class="com.example.assignment2finalversion.BakedGood">
+                <bgname>cr</bgname>
+                <countryoforigin>cr</countryoforigin>
+                <description>cr</description>
+                <imageUrl>cr</imageUrl>
+              </contents>
+            </next>
+            <contents class="com.example.assignment2finalversion.BakedGood">
+              <bgname>cr1</bgname>
+              <countryoforigin>cr1</countryoforigin>
+              <description>cr1</description>
+              <imageUrl>cr1</imageUrl>
+            </contents>
+          </next>
+          <contents class="com.example.assignment2finalversion.BakedGood">
+            <bgname>cr</bgname>
+            <countryoforigin>cr</countryoforigin>
+            <description>cr</description>
+            <imageUrl>cr</imageUrl>
+          </contents>
+        </next>
+        <contents class="com.example.assignment2finalversion.BakedGood">
+          <bgname>test</bgname>
+          <countryoforigin>cr1</countryoforigin>
+          <description>cr1</description>
+          <imageUrl>cr1</imageUrl>
+        </contents>
+      </next>
+      <contents class="com.example.assignment2finalversion.BakedGood">
+        <bgname>test1</bgname>
+        <countryoforigin>cr1</countryoforigin>
+        <description>cr1</description>
+        <imageUrl>cr1</imageUrl>
+      </contents>
+    </head>
+  </com.example.assignment2finalversion.ADT.LinkList>
+</object-stream>
